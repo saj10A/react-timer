@@ -24,3 +24,28 @@ body{
     background: black;
     color: orange;
 }
+
+.btn {
+    padding: 10px 15px;
+    margin: 10px;
+    border-radius: 7px;
+    color: #eee;
+    border: none;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.btn-success {
+    background-color: green;
+
+}
+.btn-success:hover {
+    background-color: rgb(53, 175, 53);
+    color: #FFF;
+}
+.btn-danger {
+    background-color: red;
+}
+.btn-danger:hover {
+    background-color: tomato;
+}
